@@ -15,6 +15,10 @@
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "files": ["build/**/*"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RonBern2000/netflix-utilities.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "del-cli ./build/*",
