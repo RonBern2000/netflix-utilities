@@ -11,7 +11,7 @@
     "@types/express": "^5.0.1"
   },
   "name": "@netflix/utilities",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "files": [
