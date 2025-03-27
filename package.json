@@ -10,7 +10,7 @@
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.1"
   },
-  "name": "@netflix/utilities",
+  "name": "@netflix-utils/shared",
   "version": "1.0.3",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
