@@ -11,10 +11,12 @@
     "@types/express": "^5.0.1"
   },
   "name": "@netflix/utilities",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
-  "files": ["build/**/*"],
+  "files": [
+    "build/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/RonBern2000/netflix-utilities.git"
