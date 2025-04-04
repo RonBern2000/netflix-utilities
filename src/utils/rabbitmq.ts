@@ -52,15 +52,15 @@ export class RabbitMQClient{
         this.channel.consume(
         q.queue,
         (msg) => {
-        if (msg) {
-            const content = msg.content.toString();
-            try {
-            const data = JSON.parse(content);
-            onMessage(data);
-            } catch (err) {
-            console.error("Failed to parse message:", err);
+            if (msg) {
+                const content = msg.content.toString();
+                try {
+                const data = JSON.parse(content);
+                onMessage(data);
+                } catch (err) {
+                console.error("Failed to parse message:", err);
+                }
             }
-        }
         },
         {
             noAck: true,
