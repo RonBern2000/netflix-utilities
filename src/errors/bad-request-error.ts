@@ -6,3 +6,10 @@ export class BadRequestError extends CustomError{
         super(message);
     }
 }
+
+export class InvalidEnvironmentVariableError extends CustomError{
+    statusCode: number = 500;
+    constructor(message: string) {
+        super(message);
+    }
+}
