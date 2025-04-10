@@ -1,4 +1,4 @@
-export const allGenres: Record<number, string> = {
+export const allGenres: { [key: number]: string } = {
     28: "Action",
     12: "Adventure",
     16: "Animation",
